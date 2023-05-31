@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Threading;
 
 public class Kraj
@@ -22,6 +22,30 @@ public class Kraj
 
     public void Checker()
     {
+        if (ekonomia <= 0)
+        {
+            Console.WriteLine("Jesteś w wielkim jak Piwniczak sasinowym długu!!!!!!!! ");
+        }
+
+        if (wojsko <= 0)
+        {
+            Console.WriteLine("Twoje wojsko jest zbyt słabe i Kim Jong Un podarował ci uzbrojoną handmade atomic bomb Nagranie ze zdarzenia *mocne*   https://drive.google.com/file/d/17GAollhLRgM22b8HepU3msyuvP6AW8ja/view?usp=sharing");
+        }
+
+        if (ludnosc <= 0)
+        {
+            Console.WriteLine("Byłeś mega samotny i pociąłeś się mydłem w płynie a potem skoczyłeś z dywanu.   https://drive.google.com/file/d/10VleoghoIasBFFJCI836n7PloeMiWynK/view?usp=sharing");
+        }
+
+        if (ekologia <= 0)
+        {
+            Console.WriteLine("Greta Thunberg sie wkurzyła i nie żyjesz xd   https://drive.google.com/file/d/10VleoghoIasBFFJCI836n7PloeMiWynK/view?usp=sharing");
+        }
+
+        if (satysfakcja <= 0)
+        {
+            Console.WriteLine("Ludność się zbuntowała bo jesteś słabym pszyfudcom i zostałeś ukrzyżowany za swoje grzechy   https://drive.google.com/file/d/13c11Xy4Sv8GjKR3pyKSG_V2-EwFBzjHW/view?usp=sharing");
+        }
 
 
     }
